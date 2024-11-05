@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+
+
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="#home" id="menuHome">Home</a>
+            <a href="#about" id="menuAbout">About</a>
+            <a href="#skills" id="menuSkills">Skills</a>
+            <a href="#experience" id="menuExperience">Experiences</a>
+            <a href="#services" id="menuServices">Services</a>
+            <a href="#portfolio" id="menuPortfolio">Portfolio</a>
+            <a href="#contact" id="menuContact">Contact</a>
+        </nav>
+        
+
+        <!-- Bouton de changement de langue -->
+        <select name="" id="">
+            <option value="en">English</option>
+            <option value="fr">Français</option>
+        </select>
+    </header>
+    
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3 id="greeting">Hello, It's Me</h3>
+            <h1 id="title">Bryan Desy</h1>
+            <h3 id="introText">And I'm a <span class="text">Web Designer</span></h3>
+            <p id="description" class="description">experience in Computer Programming, producing high quality work.</p>
+            <div class="home-sci">
+                <a href="#" style="--i:1"><i class="bx bxl-github"></i></a>
+                <a href="#" style="--i:2"><i class="bx bxl-linkedin"></i></a>
+            </div>
+            
+            <a href="#portfolio" id="moreBtn" class="btn-box home-button">Portfolio</a>
+
+        </div>
+
+        <!-- Photo Section -->
+        <div class="photo-container">
+            <img src="./images/ta-photo.jpeg" alt="My photo" />
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./images/ta-photo2.jpeg" alt="Futuristic Neon Image" />
+        </div>
+        <div class="about-text">
+            <h2 id="aboutTitle">About <span>Me</span></h2>
+            <h4 id="professionTitle">junior web developer</h4>
+            <p id="aboutDescription">
+                Graduate in computer programming, with a strong technical background and a great ability to quickly acquire new skills.
+                 I am comfortable working in an agile environment, independently or as part of a team, in both French and English.
+                 I have a good understanding of gathering client requirements, a keen sense of organization, and skills in coding and program design.
+            </p>
+            <a href="CV1.pdf" download="Mon_CV" id="moreBtn2" class="btn-box home-button">Download my CV <span>📥</span></a>
+            
+
+
+        </div>
+    </section>
+
+  
+    <!-- Skills Section -->
+    <section class="skills section" id="skills">
+        <h2 id="skillsTitle">My <span class="highlight">Skills</span></h2>
+        <span id="skillsSubtitle">My technical level</span>
+
+    
+        <div class="skills__container container grid">
+            <!-- Column for Frontend Developer -->
+            <div class="skills__content skills__close">
+                <div class="skills__header">
+                    <i class="uil uil-brackets-curly skills__icon"></i>
+                    <div>
+                        <h1 id="frontendSkill">Frontend Developer<br></h1>
+                        <span id="frontendExperience" class="skill-experience">More than 2 years</span>
+                    </div>
+                    <i class="uil uil-angle-down skills__arrow"></i>
+                </div>
+                <div class="skills_list">
+                    <div class="skills_data">
+                        <div class="skills__titles">
+                            <h3 class="skills_name">HTML</h3>
+                            <span class="skills_number">85%</span>
+                        </div>
+                        <div class="skills_bar">
+                            <span class="skills_percentage skills_html"></span>
+                        </div>
+                    </div>
+                    <div class="skills_data">
+                        <div class="skills__titles">
+                            <!-- Ajout de l'icône avec le texte CSS -->
+                            <h3 class="skills_name">CSS</h3>
+                            <span class="skills_number">80%</span>
+                        </div>
+                        <div class="skills_bar">
+                            <span class="skills_percentage skills_css"></span>
+                        </div>
+                    </div>
+                    <div class="skills_data">
+                        <div class="skills__titles">
+                            <h3 class="skills_name">JavaScript</h3>
+                            <span class="skills_number">90%</span>
+                        </div>
+                        <div class="skills_bar">
+                            <span class="skills_percentage skills_js"></span>
+                        </div>
+                    </div>
+                    <div class="skills_data">
+                        <div class="skills__titles">
+                            <h3 class="skills_name">React</h3>
+                            <span class="skills_number">80%</span>
+                        </div>
+                        <div class="skills_bar">
+                            <span class="skills_percentage skills_react"></span>
+                        </div>
+                    </div>
+                    <div class="skills_data">
+                        <div class="skills__titles">
+                            <h3 class="skills_name">Next.js</h3>
+                            <span class="skills_number">80%</span>
+                        </div>
+                        <div class="skills_bar">
+                            <span class="skills_percentage skills_Next"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Column for Backend Developer -->
+            <div class="skills__content skills__close">
+                <div class="skills__header">
+                    <i class="uil uil-server-network-alt skills__icon"></i>
+                    <div>
+                        <h1 id="backendSkill">Backend Developer<br></h1>
+                        <span id="backendExperience" class="skill-experience">More than 2 years</span>
+                    </div>
+                    <i class="uil uil-angle-down skills__arrow"></i>
+                </div>
+                <div class="skills_list">
+                    <div class="skills_data">
+                        <div class="skills__titles">
+                            <h3 class="skills_name">Node JS (Express framework)</h3>
+                            <span class="skills_number">85%</span>
+                        </div>
+                        <div class="skills_bar">
+                            <span class="skills_percentage skills_node"></span>
+                        </div>
+                    </div>
+                    <div class="skills_data">
+                        <div class="skills__titles">
+                            <h3 class="skills_name">SQL</h3>
+                            <span class="skills_number">85%</span>
+                        </div>
+                        <div class="skills_bar">
+                            <span class="skills_percentage skills_sql"></span>
+                        </div>
+                    </div>
+                    <div class="skills_data">
+                        <div class="skills__titles">
+                            <h3 class="skills_name">PHP</h3>
+                            <span class="skills_number">50%</span>
+                        </div>
+                        <div class="skills_bar">
+                            <span class="skills_percentage skills_php"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Column for Mobile Software developper -->
+            <div class="skills__content skills__close">
+                <div class="skills__header">
+                    <i class="uil uil-mobile-android skills__icon"></i>
+                    
+                    <div>
+                        <h1 id="mobileSkill">Mobile Software<br>developper</h1>
+                        <span id="mobileExperience" class="skill-experience">More than 2 years</span>
+                    </div>
+                    <i class="uil uil-angle-down skills__arrow"></i>
+                </div>
+                <div class="skills_list">
+                    <div class="skills_data">
+                        <div class="skills__titles">
+                            <h3 class="skills_name">Android (Kotlin et Java)</h3>
+                            <span class="skills_number">75%</span>
+                        </div>
+                        <div class="skills_bar">
+                            <span class="skills_percentage skills_android"></span>
+                        </div>
+                    </div>
+                    <div class="skills_data">
+                        <div class="skills__titles">
+                            <h3 class="skills_name">IOS (Swift)</h3>
+                            <span class="skills_number">75%</span>
+                        </div>
+                        <div class="skills_bar">
+                            <span class="skills_percentage skills_ios"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <!-- Column for Software developper -->
+             <div class="skills__content skills__close">
+                <div class="skills__header">
+                    <i class="uil uil-desktop skills__icon"></i>
+                    <div>
+                        <h1 id="softwareSkill">Software developper</h1>
+                        <span id="softwareExperience" class="skill-experience">More than 2 years</span>
+                    </div>
+                    <i class="uil uil-angle-down skills__arrow"></i>
+                </div>
+                <div class="skills_list">
+                    <div class="skills_data">
+                        <div class="skills__titles">
+                            <h3 class="skills_name">C#</h3>
+                            <span class="skills_number">90%</span>
+                        </div>
+                        <div class="skills_bar">
+                            <span class="skills_percentage skills_C"></span>
+                        </div>
+                    </div>
+                    <div class="skills_data">
+                        <div class="skills__titles">
+                            <h3 class="skills_name">Python</h3>
+                            <span class="skills_number">80%</span>
+                        </div>
+                        <div class="skills_bar">
+                            <span class="skills_percentage skills_Python"></span>
+                        </div>
+                    </div>
+                    <div class="skills_data">
+                        <div class="skills__titles">
+                            <h3 class="skills_name">Java</h3>
+                            <span class="skills_number">80%</span>
+                        </div>
+                        <div class="skills_bar">
+                            <span class="skills_percentage skills_Java"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <!-- Column for Software -->
+             <div class="skills__content skills__close">
+                <div class="skills__header">
+                    <i class="uil uil-laptop skills__icon"></i>
+                    <div>
+                        <h1 id="softwareBasicSkill">Software</h1>
+                        <span id="softwareBasicExperience" class="skill-experience">More than 2 years</span>
+                    </div>
+                    <i class="uil uil-angle-down skills__arrow"></i>
+                </div>
+                <div class="skills_list">
+                    <div class="skills_data">
+                        <div class="skills__titles">
+                            <h3 class="skills_name">Visual Studio Code</h3>
+                            <span class="skills_number">95%</span>
+                        </div>
+                        <div class="skills_bar">
+                            <span class="skills_percentage skills_VisualCode"></span>
+                        </div>
+                    </div>
+                    <div class="skills_data">
+                        <div class="skills__titles">
+                            <h3 class="skills_name">Visual Studio</h3>
+                            <span class="skills_number">95%</span>
+                        </div>
+                        <div class="skills_bar">
+                            <span class="skills_percentage skills_VisualStudio"></span>
+                        </div>
+                    </div>
+                    <div class="skills_data">
+                        <div class="skills__titles">
+                            <h3 class="skills_name">Android Studio</h3>
+                            <span class="skills_number">95%</span>
+                        </div>
+                        <div class="skills_bar">
+                            <span class="skills_percentage skills_Android"></span>
+                        </div>
+                    </div>
+                    <div class="skills_data">
+                        <div class="skills__titles">
+                            <h3 class="skills_name">SQL Server</h3>
+                            <span class="skills_number">95%</span>
+                        </div>
+                        <div class="skills_bar">
+                            <span class="skills_percentage skills_SQL"></span>
+                        </div>
+                    </div>
+                    <div class="skills_data">
+                        <div class="skills__titles">
+                            <h3 class="skills_name">MS PowerPoint</h3>
+                            <span class="skills_number">95%</span>
+                        </div>
+                        <div class="skills_bar">
+                            <span class="skills_percentage skills_MSP"></span>
+                        </div>
+                    </div>
+                    <div class="skills_data">
+                        <div class="skills__titles">
+                            <h3 class="skills_name">MS Exel</h3>
+                            <span class="skills_number">95%</span>
+                        </div>
+                        <div class="skills_bar">
+                            <span class="skills_percentage skills_MSE"></span>
+                        </div>
+                    </div>
+                    <div class="skills_data">
+                        <div class="skills__titles">
+                            <h3 class="skills_name">Ms Project</h3>
+                            <span class="skills_number">95%</span>
+                        </div>
+                        <div class="skills_bar">
+                            <span class="skills_percentage skills_Project"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <!-- Column for Language -->
+             <div class="skills__content skills__close">
+                <div class="skills__header">
+                    <i class="uil uil-language skills__icon"></i>
+                    <div>
+                        <h1 id="languagesSkill">Languages</h1>
+                        <span id="languageExperience" class="skill-experience">More than 10 years</span>
+                    </div>
+                    <i class="uil uil-angle-down skills__arrow"></i>
+                </div>
+                <div class="skills_list">
+                    <div class="skills_data">
+                        <div class="skills__titles">
+                            <h3 class="skills_name">Français</h3>
+                            <span class="skills_number">99%</span>
+                        </div>
+                        <div class="skills_bar">
+                            <span class="skills_percentage skills_Français"></span>
+                        </div>
+                    </div>
+                    <div class="skills_data">
+                        <div class="skills__titles">
+                            <h3 class="skills_name">English</h3>
+                            <span class="skills_number">70%</span>
+                        </div>
+                        <div class="skills_bar">
+                            <span class="skills_percentage skills_English"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+
+        <!--==================== QUALIFICATION ====================-->
+<section class="qualification section" id="experience">
+    <h2 id="qualificationTitle">Qualification</h2>
+    <span id="qualificationSubtitle">My personal journey</span>
+
+    <div class="qualification__container container">
+        <div class="qualification__tabs">
+            <div class="qualification__button button--flex qualification__active" data-target='#education'>
+                <i class="uil uil-graduation-cap qualification__icon"></i>
+                <h3 id="educationTitle">Education</h3>
+            </div>
+
+            <div class="qualification__button button--flex">
+                <i class="uil uil-briefcase-alt qualification__icon"></i>
+                <h3 id="workTitle">Work</h3>
+
+            </div>
+        </div>
+        <div class="qualification__section">
+            <!--==================== QUALIFICATION CONTENT 1 ====================-->
+            <div class="qualification__content qualification__active" data-content id="education">
+            <!--==================== QUALIFICATION 1 ====================-->
+            <div class="qualification__data">
+                <div>
+                    <h3 id="educationTitle1">Ontario College Diploma in Computer Programming</h3>
+                    <span id="educationInstitution1">La Cité Collégiale College, Ottawa, Canada</span>
+                    <div class="qualification_calendar">
+                        <i class="uil uil-calendar-alt"></i>
+                        2022 - 2024
+                    </div>
+                </div>
+
+                <div class="qualification__indicator">
+                    <span class="qualification_rounder"></span>
+                    <span class="qualification_line"></span>
+                </div>
+            </div>
+
+            <!--==================== QUALIFICATION 2 ====================-->
+            <div class="qualification__data">
+                <div></div>
+
+                <div class="qualification__indicator" >
+                    <span class="qualification_rounder"></span>
+                    <span class="qualification_line"></span>
+                </div>
+
+                <div>
+                    <h3 id="workTitle1" >KFC (student job)</h3>
+                    <span class="qualification_subtitle">Gatineau, Canada </span>
+                    <div class="qualification_calendar">
+                        <i class="uil uil-calendar-alt"></i>
+                        2020 - 2023
+                    </div>
+                </div>
+            </div>
+            <!--==================== QUALIFICATION 3 ====================-->
+            <div class="qualification__data">
+                <div>
+                    <h3 id="educationTitle2">high school diploma</h3>
+                    <span id="education_Institution2">Lycée Léon Mba, Gabon</span>
+                    <div class="qualification_calendar">
+                        <i class="uil uil-calendar-alt"></i>
+                        
+                    </div>
+                </div>
+
+                <div class="qualification__indicator">
+                    <span class="qualification_rounder"></span>
+                    <span class="qualification_line"></span>
+                </div>
+
+            </div>
+            
+            <!--==================== QUALIFICATION CONTENT 4 ====================-->
+            <div class="qualification__data">
+                <div></div>
+
+                <div class="qualification__indicator">
+                    <span class="qualification_rounder"></span>
+                    
+                </div>
+
+                <div>
+                    <h3 id="workTitle2">volunteering in an association</h3>
+                    <span class="qualification_subtitle">Ottawa, Canada</span>
+                    <div class="qualification_calendar">
+                        <i class="uil uil-calendar-alt"></i>
+                        2019 - 2021
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+        <!--==================== QUALIFICATION CONTENT 2 ====================-->
+        <div class="qualification__content " data-content id="work">
+    <!--==================== QUALIFICATION 1 ====================-->
+    <div class="qualification__data">
+        <div>
+            <h3 class="qualification_title"></h3>
+            <span class="qualification_subtitle">Libreville - Universiy</span>
+            <div class="qualification_calendar">
+                <i class="uil uil-calendar-alt"></i>
+                2016 - 2018
+            </div>
+        </div>
+
+        <div class="qualification__indicator">
+            <span class="qualification_rounder"></span>
+            <span class="qualification_line"></span>
+        </div>
+    </div>
+
+    <!--==================== QUALIFICATION 2 ====================-->
+    <div class="qualification__data">
+        <div></div>
+
+        <div class="qualification__indicator">
+            <span class="qualification_rounder"></span>
+            <span class="qualification_line"></span>
+        </div>
+
+        <div>
+            <h3 class="qualification_title"></h3>
+            <span class="qualification_subtitle"> </span>
+            <div class="qualification_calendar">
+                <i class="uil uil-calendar-alt"></i>
+                2014 - 2017
+            </div>
+        </div>
+    </div>
+    <!--==================== QUALIFICATION 3 ====================-->
+    <div class="qualification__data">
+        <div>
+            <h3 class="qualification_title"></h3>
+            <span class="qualification_subtitle">Libreville - Universiy</span>
+            <div class="qualification_calendar">
+                <i class="uil uil-calendar-alt"></i>
+                2017 - 2019
+            </div>
+        </div>
+
+        <div class="qualification__indicator">
+            <span class="qualification_rounder"></span>
+            <!--span class="qualification_line"></span-->
+        </div>
+    </div>
+    
+        </div>
+     </div>
+    </div>
+</section>
+<!--==================== QUALIFICATION ====================-->
+
+
+    <!-- Services Section -->
+   <!-- Services Section -->
+<section class="services" id="services">
+    <div class="container">
+        <h2 id="skillsTitle">My <span class="highlight">Services</span></h2>
+        <div class="services-list">
+            
+            <!-- Première carte -->
+            <div class="services-item card">
+                <i class="bx bx-code" style="color: #00eeff; font-size: 50px; margin-bottom: 15px;"></i>
+                <h2 id="frontendTitle">Frontend Developper</h2>
+                <p id="frontendDescription"> Develop highly interactive front-end/user interfaces for web</p>
+                <a href="javascript:void(0);" id="frontendButton" class="read" data-modal="modal-1">Learn more</a>
+
+                <!-- Modale 1 -->
+                <div class="services__modal" id="modal-1">
+                    <div class="services__modal-content">
+                        <h4 id="frontendModalTitle" class="services__modal-title">Frontend<br>Developper</h4>
+                        <i class="uil uil-times services__modal-close"></i>
+                        <ul id="frontendModalContent"class="services__modal-services grid">
+                            <li class="services__modal-service">
+                                <i class="uil uil-check-circle services__modal-icon"></i>
+                                <p id="frontendModalDescription">I am able to work on the frontend of web application, independently or as a team member.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Deuxième carte -->
+            <div class="services-item card">
+                <i class="bx bx-crop" style="color: #00eeff; font-size: 50px; margin-bottom: 15px;"></i>
+                <h2  id="backendTitle">Backend Developper</h2>
+                <p id="backendDescription">Create robust application backends with Node.js, Express, and Spring Boot</p>
+                <a href="javascript:void(0);" id="backendButton" class="read" data-modal="modal-2">Learn more</a>
+
+                <!-- Modale 2 -->
+                <div class="services__modal" id="modal-2">
+                    <div class="services__modal-content">
+                        <h4 id="backendModalTitle" class="services__modal-title">Backend<br>Developper</h4>
+                        <i class="uil uil-times services__modal-close"></i>
+                        <ul id="backendModalContent" class="services__modal-services grid">
+                            <li class="services__modal-service">
+                                <i class="uil uil-check-circle services__modal-icon"></i>
+                                <p id="backendModalDescription">I am able to work on the backend of web application, independently or as a team member.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Troisième carte -->
+            <div class="services-item card">
+                <i class="bx bxl-apple" style="color: #00eeff; font-size: 50px; margin-bottom: 15px;"></i>
+                <h2 id="softwareTitle">Software Developper</h2>
+                <p id="softwareDescription">Creates powerful, easy-to-use desktop applications for Windows</p>
+                <a href="javascript:void(0);" id="softwareButton" class="read" data-modal="modal-3">Learn more</a>
+
+               <!-- Modale 3 -->
+<div class="services__modal" id="modal-3">
+    <div class="services__modal-content">
+        <h4 id="softwareModalTitle" class="services__modal-title">Software<br>Development</h4>
+        <i class="uil uil-times services__modal-close"></i>
+        <ul id="softwareModalContent" class="services__modal-services grid">
+            <li class="services__modal-service">
+                <i class="uil uil-check-circle services__modal-icon"></i>
+                <p id="softwareModalDescription1">I am able to develop software using C# and WPF, with Database access like MySQL.</p>
+            </li>
+            <li class="services__modal-service">
+                <i class="uil uil-check-circle services__modal-icon"></i>
+                <p id="softwareModalDescription2">I develop Android Applications.</p>
+            </li>
+            <li class="services__modal-service">
+                <i class="uil uil-check-circle services__modal-icon"></i>
+                <p id="softwareModalDescription3">I develop software using Python language, with SGBD access like MySQL.</p>
+            </li>
+        </ul>
+    </div>
+</div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+         
+
+<!-- Portfolio Section -->
+<section class="portfolio section" id="portfolio">
+    <h2 id="portfolioTitle">My <span class="highlight">Portfolio</span></h2>
+    <p id="portfolioSubtitle" class="portfolio__subtitle">Most recent projects</p>
+
+    <div class="portfolio__container">
+        <div class="portfolio-images">
+            <!-- Slide 1 -->
+            <div class="portfolio__content grid">
+                <img src="./images/5775435.jpg" alt="Projet 1" class="active" onclick="openLightbox(this.src)">
+                <div class="portfolio_data">
+                    
+                    <a href="javascript:void(0)" id="viewDetailsButton1" class="button button--flex button--small portfolio__button" onclick="openModal(1)">
+                        View details
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="portfolio__content grid">
+                <img src="./images/5467393_1687.jpg" alt="Projet 2" onclick="openLightbox(this.src)">
+                <div class="portfolio_data">
+                    
+                    <a href="javascript:void(0)" id="viewDetailsButton2" class="button button--flex button--small portfolio__button" onclick="openModal(2)">
+                        View details
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="portfolio__content grid">
+                <img src="./images/4174812.jpg" alt="Projet 3" onclick="openLightbox(this.src)">
+                <div class="portfolio_data">
+                    
+                    <a href="javascript:void(0)" id="viewDetailsButton3" class="button button--flex button--small portfolio__button" onclick="openModal(3)">
+                        View details
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Slide 4 -->
+            <div class="portfolio__content grid">
+                <img src="./images/6404275.jpg" alt="Projet 4" onclick="openLightbox(this.src)">
+                <div class="portfolio_data">
+                   
+                    <a href="javascript:void(0)" id="viewDetailsButton4" class="button button--flex button--small portfolio__button" onclick="openModal(4)">
+                        View details
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation Buttons -->
+        <button class="portfolio-button prev" onclick="moveSlide(-1)">❮</button>
+        <button class="portfolio-button next" onclick="moveSlide(1)">❯</button>
+    </div>
+</section>
+
+<!-- HTML de la modale -->
+<div id="portfolioModal" class="portfolio-modal" onclick="outsideClick(event)">
+    <div class="portfolio-modal-content">
+        <button id="goBackButton" class="close" onclick="closeModal()">Go back</button>
+        <h3 id="modalTitle">Project 1 Title</h3>
+        <div class="modal-grid">
+            <div class="modal-text">
+                <p id="modalDescription">Description of Project 1...</p>
+                
+                <div class="modal-buttons">
+                    <a id="githubButton"  href="https://github.com" target="_blank">View on GitHub</a>
+                    <a id="siteButton" href="#" target="_blank">Demo</a>
+                </div>
+            </div>
+            <div class="modal-image">
+                <img id="modalImage" src="./images/5775435.jpg" alt="Project Image">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Lightbox overlay pour agrandir les images -->
+<div id="lightbox" onclick="closeLightbox()">
+    <img id="lightbox-img" src="" alt="Agrandissement de l'image">
+</div>
+
+ 
+  
+   <!-- Contact Section -->
+<section class="contact" id="contact">
+    <div class="contact-text">
+        <h2 id="contactTitle" class="contact-title">Contact <span class="highlight">Me</span></h2>
+
+        
+        
+        <ul class="contact-list">
+            <li><i class="bx bxs-envelope"></i> mbouitybrayan8@gmail.com</li>
+            <li><i class="bx bxs-phone"></i> +1 819-319-8994</li>
+        </ul>
+        
+        <div class="contact-icons">
+            <a href="#"><i class="bx bxl-facebook-circle"></i></a>
+            <a href="#"><i class="bx bxl-twitter"></i></a>
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+            <a href="#"><i class="bx bxl-linkedin"></i></a>
+        </div>
+    </div>
+    
+    <div class="contact-form">
+        <form action="">
+            <input type="text" id="nameInput" placeholder="Enter Your Name" required>
+            <input type="email" id="emailInput" placeholder="Enter Your Email" required>
+            <input type="text" id="subjectInput" placeholder="Enter Your Subject">
+            <textarea id="messageInput" cols="40" rows="10" placeholder="Enter Your Message"></textarea>
+            <input type="submit" id="submitButton" value="Submit" class="send">
+          </form>
+    </div>
+</section>
+<footer class="footer">
+    <p>Built with ❤️ by Bryan Desy</p>
+  </footer>
+<a href="#" class="top">
+    <i class="bx bx-up-arrow-alt"></i>
+</a>
+
+    
+
+    <script src="main.js"></script>
+
+
+</body>
+</html>
